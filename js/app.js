@@ -41,8 +41,6 @@ function scrollSection(section) {
     }
 }
 }
-// End of Set the Section class
-
 //call returnTop method 
 document.addEventListener("DOMContentLoaded", () => {
     returnTop();
