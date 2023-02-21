@@ -18,6 +18,9 @@ This is a basic landing page that uses Javascript to create a NavBar dynamically
 ## 4. Inquiries
 [LinkedIn](https://www.linkedin.com/in/tsion-gebrehiwot-97b1b3218/"LinkedIn").
 
+## 5. Live-View
+[Landing-Page]( https://meba21.github.io/Landing-Page-Project-4-Udacity/)
+
 
 
 
