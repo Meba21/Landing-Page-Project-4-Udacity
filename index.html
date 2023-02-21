@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Landing-Page</title>  
+    <!-- Load Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:900|Merriweather&display=swap" rel="stylesheet">  <!-- Load Styles -->
+    <!-- styles and js-->
+    <link href="css/styles.css" rel="stylesheet">
+        </head>
+    <body>
+    <!-- HTML Follows BEM naming conventions 
+    IDs are only used for sections to connect menu achors to sections -->
+    <header class="page__header">
+        <nav class="navbar__menu">       
+        <!-- Navigation starts as empty UL that will be populated with JS -->
+        <ul id="navbar__list"></ul>
+        </nav>
+    </header>
+        <main>
+    <header class="main__hero">
+    <h1>Web Development</h1> 
+    </header>
+    <!-- Each Section has an ID (used for the anchor) and 
+    a data attribute that will populate the li node.
+    Adding more sections will automatically populate nav.
+    The first section is set to active class by default -->
+    <section id="section1" data-nav="HTML" class="your-active-class">
+        <div class="landing__container">
+            <h2>HTML</h2>
+                <p>
+            <b>What Is HTML?</b><br/><b
+            >Hypertext Markup Language Basics Explained </b
+            ><br />
+            HTML<b> stands for HyperText Markup Language.</b> It is a standard
+            markup language for web page creation. It allows the creation and
+            structure of sections, paragraphs, and links using HTML elements
+            (the building blocks of a web page) such as tags and attributes.
+            HTML has a lot ofuse cases, namely:
+            <ul>
+            <li> Web development. Developers
+            use HTML code to design how a browser displays web page elements,
+            such as text,hyperlinks, and media files.</li>
+            <li> Internet navigation.
+            Users can easily navigate and insert links between related pages and
+            websites as HTML is heavily used to embed hyperlinks.</li>  
+            <li> Web documentation. HTML makes it possible to organize and format documents, similarly to Microsoft Word.</li>
+            </ul>
+            </p> 
+            
+        </div>
+    </section>
+        <section id="section2" data-nav="Css">
+    <div class="landing__container">
+        <h2>Css</h2>
+        <p>
+        <b>What is CSS and its purpose?</b><br>
+        CSS stands for Cascading Style Sheets and is used by web pages to help keep information in the proper display format. <br>
+        The major purpose of CSS is for describing the presentation of Web pages, including colors, layout, and fonts that allows adapting the presentation to different types of devices, such as large screens, small screens, or printers.          
+        </p>
+        <p>
+        <b>What is does CSS stand for?</b><br>
+        Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.<br> CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.
+        </p>
+    </div>
+        </section>
+        <section id="section3" data-nav=" Javascript">
+    <div class="landing__container" id="landing-1">
+        <h2>Javascript</h2>
+        <p>
+        <b>What is JavaScript and what is it used for?</b><br>
+        To put things simply, JavaScript is an object orient programming language designed to make web development easier and more attractive. In most cases, JavaScript is used to create responsive, interactive elements for web pages, enhancing the user experience
+        </p>        
+        <p>
+        <b> What is JavaScript and how does it work?</b><br>
+                <ul>
+            <li> As we all know it is an object-based scripting language.</li>
+            <li>It is written in C. ...</li>
+            <li>Pure JavaScript is faster in accessing DOM.</li>
+            <li>With the use of JavaScript work,the user gets more control over the browser.</li> 
+            <li>It can also handle date and timestamps.</li>
+            <li>It can also detect the user's browser and even OS.</li>
+            <li>It is lightweight.</li>
+            <li>It is a scripting language as already stated.</li>
+                </ul>
+        </p>
+    </div>
+        </section>
+        <section id="section4" data-nav="GitHub & Git"> 
+    <div class="landing__container">
+        <h2>GitHub & Git</h2>
+        <p>
+        <b>What is GitHub and why is it used?</b>
+        Github. Github is a Web-based hosting service that is primarily used for storing coding projects. Github can be used as a version control tool, which is important when working on projects, and is even useful for creating webpages. This page will outline some of the things that are possible when using <br>
+        </p>
+        <p>
+        <b>What is Git?</b><br>
+        <b>Git has become the worldwide standard for version control. So what exactly is it?</b><br>
+        Git is a distributed version control system, which means that a local clone of the project is a complete version control repository. These fully functional local repositories make it easy to work offline or remotely. Developers commit their work locally, and then sync their copy of the repository with the copy on the server. This paradigm differs from centralized version control where clients must synchronize code with a server before creating new versions of code.
+        </p>
+        </div>
+        </section>
+    </main>
+  <button id="myBtn" name="Btn" onclick="returnTop()"><b>Click Me</b></button> 
+  <footer class="page__footer">
+    <p>Ⓒ 2023 Udacity | TsionGebrehiwot</p>  
+  </footer>
+  <!-- <script src=".js/app.js"></script> -->
+  <script src="js/app.js"></script>
+</body>
+</html>
