@@ -17,7 +17,7 @@ This project is for Udacity's Front End Nanodegree program.
 This is a basic landing page that uses Javascript to create a NavBar dynamically and to highlight sections when scrolled. The project uses HTML, CSS, and Javascript.
 
 ## 4. Image
-![header!](img-header.jpg)
+![header png](https://user-images.githubusercontent.com/123664349/220438441-2490cc8c-0bf2-4ebc-b797-243c129b62fd.jpg)
 
 
 
