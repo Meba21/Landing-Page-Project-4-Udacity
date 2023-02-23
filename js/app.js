@@ -59,3 +59,8 @@ button.addEventListener("click", () => {
 document.addEventListener("scroll", () => {
     activeSection();
 });
+
+function responsiveMenu() {
+	const dropDownMenu = document.querySelector("nav ul");
+	dropDownMenu.classList.toggle("show");
+}
